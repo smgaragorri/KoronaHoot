@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(65, 196, 222);
+  animation-name: animar;
+  animation-duration: 8s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+@keyframes animar {
+  25% {
+    background: rgb(65, 196, 222);
+  }
+
+  50% {
+    background: rgb(140, 199, 63);
+  }
+
+  75% {
+    background: rgb(243, 211, 51);
+  }
+
+  100% {
+    background: rgb(247, 142, 86);
+  }
+}

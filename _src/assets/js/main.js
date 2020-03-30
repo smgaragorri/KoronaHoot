@@ -2,7 +2,7 @@
 
 //  Selectores HTML
 
-const selectNameArray = document.querySelectorAll('.select-btn');
+const selectNameArray = document.querySelectorAll('.winners-btn-select');
 const winner1 = document.querySelector('.js-select1');
 const winner2 = document.querySelector('.js-select2');
 const winner3 = document.querySelector('.js-select3');
