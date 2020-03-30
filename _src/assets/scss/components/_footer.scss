@@ -1,0 +1,17 @@
+.page__footer {
+  font-size: 18px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100vw;
+  padding: 1rem;
+  background-color: $gmms-background;
+  color: $gmms-purple;
+}
+
+.far {
+  margin: 0 5px 0 5px;
+}
