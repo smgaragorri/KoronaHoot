@@ -6,7 +6,7 @@
   color: white;
   width: 80%;
   width: 600px;
-  margin: 10px;
+  margin: 10px 10px 30px 10px;
   &-ul {
     display: flex;
     justify-content: center;
@@ -98,9 +98,9 @@
 @media all and (max-width: 768px) {
   .section-list {
     width: 300px;
+    height: max-content;
     margin-top: 25px;
     &-ul {
-      overflow-y: scroll;
       flex-wrap: nowrap;
       height: 250px;
     }
