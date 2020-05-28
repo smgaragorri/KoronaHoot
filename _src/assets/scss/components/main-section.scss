@@ -16,6 +16,7 @@
     text-align: initial;
     border: solid 2px transparent;
     justify-content: flex-start;
+    padding-bottom: 60px;
   }
   &-el {
     margin: 0 30px 0 30px;
@@ -101,8 +102,8 @@
     height: max-content;
     margin-top: 25px;
     &-ul {
+      height: max-content;
       flex-wrap: nowrap;
-      height: 250px;
     }
     &-el {
       font-size: 16px;
