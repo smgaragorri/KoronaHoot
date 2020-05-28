@@ -5,13 +5,21 @@
   justify-content: space-between;
   left: 0;
   bottom: 0;
-  height: 50px;
-  width: 100vw;
-  padding: 1rem;
+  height: max-content;
+  width: 100%;
+  padding: 15px;
   background-color: $background;
   color: $purple;
 }
 
 .far {
   margin: 0 5px 0 5px;
+}
+
+@media all and (max-width: 768px) {
+  .page__footer {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
